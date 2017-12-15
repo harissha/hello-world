@@ -14,3 +14,13 @@ Git wants to keep commits as lightweight as possible though, so it doesn't just 
 
 Git also maintains a history of which commits were made when. That's why most commits have ancestor commits above them -- we designate this with arrows in our visualization. Maintaining history is great for everyone working on the project!
 
+
+Git Branches and Checkout
+
+Branches in Git are incredibly lightweight as well. They are simply pointers to a specific commit -- nothing more.
+
+ git checkout <name>     This will put us on the new branch before committing our changes
+ 
+if you want to create a new branch AND check it out at the same time, you can simply type 
+ 
+ git checkout -b [yourbranchname]
