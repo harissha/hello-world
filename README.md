@@ -25,7 +25,7 @@ if you want to create a new branch AND check it out at the same time, you can si
  
  git checkout -b [yourbranchname]
  
- 
+ modifed by Rajkumar.....
  
  
  
